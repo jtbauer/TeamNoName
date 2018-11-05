@@ -31,3 +31,13 @@ if(place_meeting(x,y+vsp,obj_Brick))
 	vsp = 0;
 }
 y = y + vsp;
+
+if(place_meeting(x,y, obj_enemy))
+{
+	lives -= 1;
+}
+
+if(place_meeting(x,y,obj_Death))
+{
+	lives -= 1;
+}
