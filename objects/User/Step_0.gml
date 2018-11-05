@@ -32,11 +32,13 @@ if(place_meeting(x,y+vsp,obj_Brick))
 }
 y = y + vsp;
 
+//Enemy Collision
 if(place_meeting(x,y, obj_enemy))
 {
 	lives -= 1;
 }
 
+//Death Collision 
 if(place_meeting(x,y,obj_Death))
 {
 	lives -= 1;
