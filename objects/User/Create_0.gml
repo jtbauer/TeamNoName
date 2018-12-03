@@ -3,9 +3,9 @@
 // Player Description
 
 //horizontal position
-global.hsp = 0;
+hsp = 0;
 //vertical position
-global.vsp = 0;
+vsp = 0;
 //gravity
 grv = 0.25;
 //Walkspeed

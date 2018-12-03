@@ -1,5 +1,5 @@
 // Enemy Collision
-if(place_meeting(x+hsp,y,obj_enemy1))
+if(place_meeting(x+other.hsp,y,obj_enemy1))
 {
 	hearts -= 1;
 	// Full Death
@@ -10,7 +10,7 @@ if(place_meeting(x+hsp,y,obj_enemy1))
 }
 
 // Death Collision Lives
-if(place_meeting(x,y+vsp,obj_Death))
+if(place_meeting(x,y+other.vsp,obj_Death))
 {
 	hearts -= 1;
 	// Full Death
