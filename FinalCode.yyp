@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "46c6b27a-3d78-4e20-92f2-37c77a42f4bd",
+            "Value": {
+                "id": "5a37031f-035e-4989-bfaa-d3afd28c8466",
+                "resourcePath": "sprites\\Game_Over\\Game_Over.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47969126-dc1b-4878-8d12-dcf64a47ad06",
             "Value": {
                 "id": "4a240a66-c642-40bb-b419-105e6acde8bd",
@@ -154,7 +162,7 @@
             "Key": "6133c953-a3ad-40be-82a2-74e2aa224aae",
             "Value": {
                 "id": "f705fe98-ee71-435d-be8b-6393937b9ffd",
-                "resourcePath": "objects\\obj_end\\obj_end.yy",
+                "resourcePath": "objects\\obj_endLevel1\\obj_endLevel1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -180,6 +188,14 @@
                 "id": "d8a947cd-743e-40a6-9837-2e1642071c10",
                 "resourcePath": "objects\\obj_enemy1\\obj_enemy1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "73d99e1b-37da-47ef-8ee5-4bcb5555a65c",
+            "Value": {
+                "id": "bd977c28-2163-4a0c-bd3a-ebfcfeea8e18",
+                "resourcePath": "sprites\\life\\life.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -300,6 +316,14 @@
                 "id": "86f1bcf1-1677-478a-a056-20595d84bbd6",
                 "resourcePath": "views\\cf70ef39-d880-428d-9d87-b239af8e2f69.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d1d7f74b-bd9c-4acf-83de-887fe4767e47",
+            "Value": {
+                "id": "6540c0cc-f47c-40b8-a120-3b45bf00945e",
+                "resourcePath": "rooms\\level2\\level2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

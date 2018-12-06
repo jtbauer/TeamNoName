@@ -78,5 +78,9 @@ if(place_meeting(x,y+vsp,obj_Death))
 	}
 }
 
+if(place_meeting(x+hsp,y,obj_endLevel1))
+{
+	room_goto(level2);	
+}
 //Animate
 
