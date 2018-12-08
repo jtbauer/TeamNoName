@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "47969126-dc1b-4878-8d12-dcf64a47ad06",
-            "Value": {
-                "id": "4a240a66-c642-40bb-b419-105e6acde8bd",
-                "resourcePath": "objects\\o_camera\\o_camera.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4990b4df-3359-4624-b9ca-6ed6def1b42f",
             "Value": {
                 "id": "9c0dfb56-092e-49a7-99f1-19640ceb082f",
@@ -148,6 +140,14 @@
                 "id": "57ba9cfd-d7c8-45ac-af3b-a8c2c5762522",
                 "resourcePath": "views\\52032dbb-32c1-48ef-b7b2-091ce1750f5d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5eeb1baa-1941-425d-aa76-20240213a245",
+            "Value": {
+                "id": "ea0b4cd0-1938-472b-afab-930215eb07a9",
+                "resourcePath": "objects\\obj_Starting\\obj_Starting.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "909f2d76-716c-417a-ad55-35552387024c",
+            "Value": {
+                "id": "b5a0e1e8-2621-4e51-8125-1dce5c49c184",
+                "resourcePath": "rooms\\Start_Menu\\Start_Menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9ad66849-4c12-4045-8216-47a399d654c0",
             "Value": {
                 "id": "4877f62a-9f5f-4462-bc91-516438ab8801",
@@ -255,11 +263,27 @@
             }
         },
         {
+            "Key": "b5ece9d6-8a19-41ff-b6df-8ff0dd70a7a2",
+            "Value": {
+                "id": "95369c8e-c7f5-481a-b483-d3677221ec48",
+                "resourcePath": "objects\\obj_game_over\\obj_game_over.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b75cf218-66dd-43a6-8eb4-e3a8e51818d5",
             "Value": {
                 "id": "7a53dca0-5fb8-4937-8e59-91ac56f95195",
                 "resourcePath": "objects\\obj_dirtydirt\\obj_dirtydirt.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b8057b0d-35c4-4ce7-ba04-e8b18a67900a",
+            "Value": {
+                "id": "3e753bce-b3cf-412a-be08-e3fb094aa0b7",
+                "resourcePath": "sprites\\Starting_Screen\\Starting_Screen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

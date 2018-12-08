@@ -43,6 +43,7 @@ if(place_meeting(x+hsp,y,obj_Wall))
 	hsp = 0;
 }
 x = x + hsp;
+
 //Vertical Collision
 if(place_meeting(x,y+vsp,obj_Wall))
 {
@@ -79,7 +80,7 @@ if(place_meeting(x,y+vsp,obj_Death))
 }
 
 
-if(place_meeting(x+hsp,y,User))
+if(place_meeting(x+hsp,y,obj_endLevel1))
 {
 	room_goto(level2);	
 }
