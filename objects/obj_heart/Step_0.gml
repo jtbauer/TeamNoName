@@ -1,24 +1,22 @@
 // Enemy Collision
-if(place_meeting(x+other.hsp,y,obj_enemy1))
+/*if(place_meeting(User.x + User.hsp, User.y, obj_enemy1))
 {
-	hearts -= 1;
+	lives = lives - 1;
 	// Full Death
-	if(hearts == 0) {
+	if(lives == 0) {
 		game_restart();
 	}
-	room_restart();
 }
 
 // Death Collision Lives
-if(place_meeting(x,y+other.vsp,obj_Death))
+if(place_meeting(User.x,User.y+User.vsp,obj_Death))
 {
-	hearts -= 1;
+	lives = lives - 1;
 	// Full Death
-	if(hearts == 0) {
+	if(lives == 0) {
 		game_restart();
 	}
-	room_restart();
 }
 
 // 0 - 3 hearts
-hearts = clamp(hearts, 0, maxhearts);
+lives = clamp(lives, 0, maxhearts);*/
