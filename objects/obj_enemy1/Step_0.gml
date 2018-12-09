@@ -30,8 +30,5 @@ if(place_meeting(x,y,User))
 	if(User.y < y - 16){
 		instance_destroy();
 	}
-	else{
-		game_restart();
-	}
 }
 	

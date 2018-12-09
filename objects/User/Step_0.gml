@@ -34,7 +34,7 @@ if(place_meeting(x,y+vsp,obj_startingBlock)){
 	hit_play = true;
 }
 
-//Horizontal Collision
+//Horizontal Collision level1
 if(place_meeting(x+hsp,y,obj_Wall))
 {
 	while(!place_meeting(x+sign(hsp), y, obj_Wall)){
@@ -43,7 +43,8 @@ if(place_meeting(x+hsp,y,obj_Wall))
 	hsp = 0;
 }
 x = x + hsp;
-//Vertical Collision
+
+//Vertical Collision level1
 if(place_meeting(x,y+vsp,obj_Wall))
 {
 	while(!place_meeting(x,y+sign(vsp), obj_Wall)){
@@ -57,6 +58,10 @@ y = y + vsp;
 if(place_meeting(x+hsp,y,obj_enemy1))
 {
 	lives -= 1;
+	while(!place_meeting(x+sign(hsp), y, obj_enemy1)){
+		x = x + sign(hsp);		
+	}
+	hsp = 0;
 	if(hit_play == true) {
 		audio_play_sound(deathSound, 2, false);
 		hit_play = false;
@@ -64,7 +69,7 @@ if(place_meeting(x+hsp,y,obj_enemy1))
 }
 
 //Verticle Enemy Collision or enemy death
-if(place_meeting(x+vsp,y,obj_enemy1)){
+if(place_meeting(x,y+vsp,obj_enemy1)){
 	vsp = -7;	
 }
 
@@ -79,7 +84,8 @@ if(place_meeting(x,y+vsp,obj_Death))
 }
 
 
-if(place_meeting(x+hsp,y,User))
+if(place_meeting(x+hsp,y,obj_endLevel1))
 {
 	room_goto(level2);	
 }
+

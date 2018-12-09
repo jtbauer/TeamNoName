@@ -11,7 +11,6 @@ grv = 0.25;
 //Walkspeed
 walksp = 9;
 //Lives
-lives = 3;
 audio_play_sound(level1Music, 10, true);
 hit_play = false;
 view_camera[0] = camera_create_view(x,y,1280,720,0,self,-1, -1, 640, 360);
