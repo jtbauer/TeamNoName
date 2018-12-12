@@ -27,8 +27,11 @@ y += vsp;
 //Enemy Collision
 if(place_meeting(x,y,User))
 {
-	if(User.y < y - 16){
+	if(User.y < y - 8){
 		instance_destroy();
 	}
 }
+
+
+
 	

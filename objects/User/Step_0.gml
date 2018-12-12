@@ -57,7 +57,6 @@ y = y + vsp;
 //Enemy Collision
 if(place_meeting(x+hsp,y,obj_enemy1))
 {
-	lives -= 1;
 	while(!place_meeting(x+sign(hsp), y, obj_enemy1)){
 		x = x + sign(hsp);		
 	}
@@ -66,6 +65,7 @@ if(place_meeting(x+hsp,y,obj_enemy1))
 		audio_play_sound(deathSound, 2, false);
 		hit_play = false;
 	}
+	
 }
 
 //Verticle Enemy Collision or enemy death
@@ -75,16 +75,23 @@ if(place_meeting(x,y+vsp,obj_enemy1)){
 
 //Death Collision Lives
 if(place_meeting(x,y+vsp,obj_Death))
-{
-	lives -= 1;
+{ 
 	if(hit_play == true){
 		audio_play_sound(deathSound, 10, false);
 		hit_play = false;
 	}
+		room_restart();
 }
 
+if(place_meeting(x+hsp,y,obj_hurdle)){
+	if(hit_play == true){
+		audio_play_sound(deathSound, 10, false);
+		hit_play = false;
+	}
+		room_restart();
+}
 
-if(place_meeting(x+hsp,y,obj_endLevel1))
+if(place_meeting(x+hsp,y,obj_endLevel))
 {
 	room_goto_next();	
 }
